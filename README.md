@@ -1,4 +1,4 @@
-This is the backend for the AI models (second backend of the paper architecture). It is built using Django and Django REST Framework (DRF) to provide a robust API for interacting with the AI models. The backend handles requests, processes data, sends the data to the AI models, and serves responses to the other backend of the paper (on the branch called "widgets-backend").
+This is the backend for the AI models (second backend of the paper architecture). It is built using Django and Django REST Framework (DRF) to provide a robust API for interacting with the AI models. The backend handles requests, processes data, sends the data to the AI models, and serves responses directly to the widget that lives on the end user EHR. This is to reduce the number of hops and to greatly increase PHI privacy.
 
 ## Quick Start Guide
 
